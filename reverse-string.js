@@ -1,21 +1,8 @@
+// Returns a reversed string of the input string
 function reverseString(str) {
-  var array = [];
-  var newStr;
   
-  // convert string to array
-  array = str.split("");
-  //console.log(array);
-
-  // reverse array
-  array.reverse();
-  //console.log(array);
-
-  // join array into newly reversed string
-  newStr = array.join("");
- //console.log(newStr)
-  
-  return newStr;
+  return ((str.split("")).reverse()).join("")
 }
 
-console.log(reverseString("hello"));
+reverseString("hello");
  

@@ -1,12 +1,13 @@
-
+// Returns the factorial of input number
 function factorialize(num) {
-  // initial total
-  var total = 1;
-  // multiply each integer of num
+  
+  var factorialTotal = 1;
+
+  // for each factor of number
   for (i = 1; i <= num; i++) {
-    total *= i;
+    factorialTotal *= i;
   }
-  return total;
+  return factorialTotal;
 }
 
 factorialize(10);
